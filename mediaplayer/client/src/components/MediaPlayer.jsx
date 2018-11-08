@@ -46,7 +46,7 @@ class MediaPlayer extends Component {
     }
     console.log(`getting song data with id: ${id}`);
 
-    axios.get('/api/songs', {params: { id }})
+    axios.get('http://localhost:3001/api/songs', {params: { id }})
       .then(response => {
         console.log('response', response);
         audio = new Audio(response.data.audio);
