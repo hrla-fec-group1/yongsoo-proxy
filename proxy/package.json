@@ -1,0 +1,26 @@
+{
+  "name": "yongsoo-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrla-fec-group1/yongsoo-proxy.git"
+  },
+  "keywords": [],
+  "author": "Yongsoo Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrla-fec-group1/yongsoo-proxy/issues"
+  },
+  "homepage": "https://github.com/hrla-fec-group1/yongsoo-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
+  }
+}

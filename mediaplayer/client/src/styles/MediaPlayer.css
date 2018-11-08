@@ -1,0 +1,124 @@
+.MediaPlayer {
+  background-image: linear-gradient(to right, #ACACAC, #4A4A4A);
+  display: grid;
+  grid-template-columns: 20px auto 20px 300px 15px;
+  grid-template-rows: 15px 5px 260px 20px 15px 15px;
+  min-width: 800px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ButtonArea {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  display: flex;
+  flex-direction: row;
+}
+
+.Button {
+  width: 65px;
+  height: 65px;
+}
+
+.SongArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.Artist {
+  align-self: flex-start;
+  background-color: black;
+  color: #ccc;
+  margin-left: 10px;
+  padding: 2px 7px 3px;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
+}
+
+.Title {
+  align-self: flex-start;
+  background-color: black;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 4px 7px;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
+}
+
+.InfoArea {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.Created {
+  align-self: flex-end;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
+}
+
+.Category {
+  align-self: flex-end;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #999;
+  border-radius: 20px;
+  padding: 1px 7px;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
+}
+
+.TimeArea {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  display: flex;
+  flex-direction: row;
+  align-self: end;
+  justify-content: space-between;
+}
+
+.Time {
+  background-color: black;
+  color: #ff6400;
+  font-size: 12px;
+  font-family: "courier new";
+  font-weight: 100;
+  z-index: 2;
+}
+
+.Duration {
+  background-color: black;
+  color: #ccc;
+  font-size: 12px;
+  font-family: "courier new";
+  font-weight: 100;
+  z-index: 2;
+}
+
+.WaveForm {
+  grid-column: 2 / 3;
+  grid-row: 3 / 6;
+  align-self: end;
+}
+
+.Comment {
+  grid-column: 2 / 3;
+  grid-row: 4 / 6;
+  position: relative;
+  z-index: 2;
+}
+
+.AlbumArt {
+  grid-column: 4 / 5;
+  grid-row: 2 / 6;
+  align-self: stretch;
+  justify-self: stretch;
+}
