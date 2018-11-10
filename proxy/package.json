@@ -19,6 +19,7 @@
   "homepage": "https://github.com/hrla-fec-group1/yongsoo-proxy#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "http-proxy": "^1.17.0",
     "morgan": "^1.9.1",
     "react": "^16.6.1",
     "react-dom": "^16.6.1"
