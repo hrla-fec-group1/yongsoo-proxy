@@ -12,6 +12,13 @@ services:
     - "3001:3001"
     links:
     - mongo
+  steve:
+    container_name: steven-comments
+    build: ./comments
+    ports:
+    - "3002:3002"
+    links:
+    - mongo
   mongo:
     container_name: mongo
     image: mongo
