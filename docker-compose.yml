@@ -4,19 +4,7 @@ services:
     container_name: yongsoo-proxy
     build: ./proxy
     ports:
-    - "80:3000"
-  yongsoo:
-    container_name: yongsoo-mediaplayer
-    build: ./mediaplayer
-    ports:
-    - "3001:3001"
-    links:
-    - mongo
-  steve:
-    container_name: steven-comments
-    build: ./comments
-    ports:
-    - "3002:3002"
+    - "3000:3000"
     links:
     - mongo
   mongo:
