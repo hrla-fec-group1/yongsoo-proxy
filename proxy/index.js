@@ -7,7 +7,7 @@ const yongsooServer = 'http://54.183.184.86';
 const steveServer = 'http://13.57.49.186:3000';
 const dylanServer = 'http:/52.13.8.105';
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, 'client')));
