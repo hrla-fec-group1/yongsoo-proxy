@@ -4,4 +4,4 @@ services:
     container_name: yongsoo-proxy
     build: ./proxy
     ports:
-    - "3000:3000"
+    - "4000:4000"
